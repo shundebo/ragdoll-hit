@@ -77,7 +77,7 @@
         }
     }
     var d = document.createElement("script");
-    d.src = "poki-sdk.js",
+    d.src = "https://cdn.jsdelivr.net/gh/Collasperz/ragdoll-hit/poki-sdk.js",
     d.onload = function() {
         var t = document.createElement("script");
         t.src = i + a,
