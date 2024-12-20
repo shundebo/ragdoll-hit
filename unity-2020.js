@@ -724,10 +724,10 @@
     }
     function c() {
         var n = document.createElement("script");
-        n.src = "".concat("Build", "/").concat(w.a.metadata.loader_filename),
-        w.a.dataUrl = "".concat("Build", "/").concat(w.a.metadata.data_filename),
-        w.a.frameworkUrl = "".concat("Build", "/").concat(w.a.metadata.framework_filename),
-        w.a.codeUrl = "".concat("Build", "/").concat(w.a.metadata.code_filename),
+        n.src = "https://cdn.jsdelivr.net/gh/Collasperz/ragdoll-hit/".concat("Build", "/").concat(w.a.metadata.loader_filename),
+        w.a.dataUrl = "https://cdn.jsdelivr.net/gh/Collasperz/ragdoll-hit/".concat("Build", "/").concat(w.a.metadata.data_filename),
+        w.a.frameworkUrl = "https://cdn.jsdelivr.net/gh/Collasperz/ragdoll-hit/".concat("Build", "/").concat(w.a.metadata.framework_filename),
+        w.a.codeUrl = "https://cdn.jsdelivr.net/gh/Collasperz/ragdoll-hit/".concat("Build", "/").concat(w.a.metadata.code_filename),
         w.a.streamingAssetsUrl = "StreamingAssets",
         n.addEventListener("load", function() {
             var n = document.querySelector("#game");
